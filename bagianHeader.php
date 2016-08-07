@@ -120,14 +120,11 @@
                             <li class="sub-menu">
                                 <a href="javascript:;">
                                     <i class="fa fa-money"></i>
-                                    <span>Internet prepago</span>
+                                    <span>Licencias</span>
                                 </a>
                                 <ul class="sub">
-                                    <li><a href="?page=ticket">Generar un ticket</a></li>
-                                    <li><a href="?page=planes">Precios y planes de internet</a></li>
-                                    <li><a href="?page=dinero">Devolución de dinero</a></li>
-				                    <li><a href="?page=buscar">Registro de usuarios</a></li>
-                                    <li><a href="?page=ventas">Registro de ventas</a></li>
+                                    <li><a href="?page=licencia">Nueva licencia</a></li>
+                                    <li><a href="?page=equipos">Administrar equipos</a></li>
                                 </ul>
                             </li>
                             <li class="sub-menu">
@@ -137,15 +134,8 @@
                                 </a>
                                 <ul class="sub">
                                     <li><a href="?page=setting">Cambiar mi contraseña</a></li>
-                                    <li><a href="?page=usuarios">Agregar una sucursal/revendedor</a></li>
                                     <li><a href="?page=conf_mik">Configuración Mikrotik</a></li>
                                      </ul>
-                            <li class="sub-menu">
-                                <a href="?page=licencia">
-                                    <i class="fa fa-key"></i>
-                                    <span>Licencia</span>
-                                </a>
-                        </ul>
                     </div>        
             <!-- sidebar menu end-->
                 </div>
