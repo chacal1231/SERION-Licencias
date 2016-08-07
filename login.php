@@ -42,6 +42,7 @@
 					<div class="user-login-info">
                         
                         <?php
+                        include 'inc/config.php';
                         if(isset($_POST['login'])){	
                             $username = mysqli_real_escape_string($link,$_POST['username']);
                             $password = mysqli_real_escape_string($link,md5($_POST['password']));
@@ -68,7 +69,8 @@
                                 </div>
                                 ";
                             }		
-                        }?>
+                        }
+                        ?>
                         
 					<input type="text" name="username" class="form-control" placeholder="Ingresa tu usuario" autofocus>
 					<input type="password" name="password" class="form-control" placeholder="Contraseña">
