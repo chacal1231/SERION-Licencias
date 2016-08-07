@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 07-08-2016 a las 09:29:20
+-- Tiempo de generación: 07-08-2016 a las 09:32:47
 -- Versión del servidor: 5.7.10-log
 -- Versión de PHP: 5.6.19
 
@@ -47,6 +47,13 @@ CREATE TABLE `user` (
   `priv` int(11) NOT NULL,
   `total` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Volcado de datos para la tabla `user`
+--
+
+INSERT INTO `user` (`id_user`, `name_user`, `username`, `password`, `priv`, `total`) VALUES
+(1, 'Admin', 'admin', '81dc9bdb52d04dc20036dbd8313ed055', 0, 0);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
